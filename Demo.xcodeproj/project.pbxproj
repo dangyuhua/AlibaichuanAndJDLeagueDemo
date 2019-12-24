@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC07DED623AE734E00911FD0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC07DED523AE734E00911FD0 /* AppDelegate.m */; };
+		FC07DEDC23AE734E00911FD0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC07DEDB23AE734E00911FD0 /* ViewController.m */; };
+		FC07DEE123AE734F00911FD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC07DEE023AE734F00911FD0 /* Assets.xcassets */; };
+		FC07DEE423AE734F00911FD0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC07DEE223AE734F00911FD0 /* LaunchScreen.storyboard */; };
+		FC07DEE723AE734F00911FD0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC07DEE623AE734F00911FD0 /* main.m */; };
+		FC07DEF423AE738000911FD0 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC07DEF323AE738000911FD0 /* JavaScriptCore.framework */; };
+		FC07DEF623AE739300911FD0 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FC07DEF523AE738B00911FD0 /* libz.tbd */; };
+		FC07DEF823AE739F00911FD0 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC07DEF723AE739F00911FD0 /* SystemConfiguration.framework */; };
+		FC07DEFB23AE73C500911FD0 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FC07DEFA23AE73BE00911FD0 /* libsqlite3.0.tbd */; };
+		FC07DEFD23AE73D000911FD0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC07DEFC23AE73D000911FD0 /* Foundation.framework */; };
+		FC07DEFF23AE73D900911FD0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC07DEFE23AE73D900911FD0 /* UIKit.framework */; };
+		FC07DF2623AE7B0900911FD0 /* AlibabaAuthSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FC07DF1123AE7B0600911FD0 /* AlibabaAuthSDK.bundle */; };
+		FC07DF2723AE7B0900911FD0 /* AlipaySDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FC07DF1223AE7B0600911FD0 /* AlipaySDK.bundle */; };
+		FC07DF2823AE7B0900911FD0 /* SmartLink.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FC07DF1323AE7B0600911FD0 /* SmartLink.bundle */; };
+		FC07DF2923AE7B0900911FD0 /* NBResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FC07DF1423AE7B0600911FD0 /* NBResource.bundle */; };
+		FC07DF2A23AE7B0900911FD0 /* AlibabaAuthExt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC07DF1623AE7B0900911FD0 /* AlibabaAuthExt.framework */; };
+		FC07DF2B23AE7B0900911FD0 /* MtopSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC07DF1723AE7B0900911FD0 /* MtopSDK.framework */; };
+		FC07DF2C23AE7B0900911FD0 /* mtopext.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC07DF1823AE7B0900911FD0 /* mtopext.framework */; };
+		FC07DF2D23AE7B0900911FD0 /* AlibabaAuthSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC07DF1923AE7B0900911FD0 /* AlibabaAuthSDK.framework */; };
+		FC07DF2E23AE7B0900911FD0 /* AlibcTradeSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC07DF1A23AE7B0900911FD0 /* AlibcTradeSDK.framework */; };
+		FC07DF2F23AE7B0900911FD0 /* AlibcLinkPartnerSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC07DF1B23AE7B0900911FD0 /* AlibcLinkPartnerSDK.framework */; };
+		FC07DF3023AE7B0900911FD0 /* SecurityGuardSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC07DF1C23AE7B0900911FD0 /* SecurityGuardSDK.framework */; };
+		FC07DF3123AE7B0900911FD0 /* UTDID.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC07DF1D23AE7B0900911FD0 /* UTDID.framework */; };
+		FC07DF3223AE7B0900911FD0 /* AlibcTradeBiz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC07DF1E23AE7B0900911FD0 /* AlibcTradeBiz.framework */; };
+		FC07DF3323AE7B0900911FD0 /* SGMain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC07DF1F23AE7B0900911FD0 /* SGMain.framework */; };
+		FC07DF3423AE7B0900911FD0 /* mtopcoreopen.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC07DF2023AE7B0900911FD0 /* mtopcoreopen.framework */; };
+		FC07DF3523AE7B0900911FD0 /* UTMini.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC07DF2123AE7B0900911FD0 /* UTMini.framework */; };
+		FC07DF3623AE7B0900911FD0 /* SGAVMP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC07DF2223AE7B0900911FD0 /* SGAVMP.framework */; };
+		FC07DF3723AE7B0900911FD0 /* SGMiddleTier.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC07DF2323AE7B0900911FD0 /* SGMiddleTier.framework */; };
+		FC07DF3823AE7B0900911FD0 /* AlipaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC07DF2423AE7B0900911FD0 /* AlipaySDK.framework */; };
+		FC07DF3923AE7B0900911FD0 /* SGSecurityBody.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC07DF2523AE7B0900911FD0 /* SGSecurityBody.framework */; };
+		FC07DF3A23AE7B3800911FD0 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FC07DEF523AE738B00911FD0 /* libz.tbd */; };
+		FC07DF3B23AE7B5900911FD0 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FC07DEFA23AE73BE00911FD0 /* libsqlite3.0.tbd */; };
+		FC07DF3C23AE7B6100911FD0 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FC07DEF923AE73B300911FD0 /* libsqlite3.tbd */; };
+		FC07DF3E23AE7B7200911FD0 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC07DF3D23AE7B7200911FD0 /* CoreTelephony.framework */; };
+		FC07DF4023AE7B7B00911FD0 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC07DF3F23AE7B7B00911FD0 /* CoreMotion.framework */; };
+		FC07DF4223AE7C8D00911FD0 /* mtopsdk_configuration.plist in Resources */ = {isa = PBXBuildFile; fileRef = FC07DF4123AE7C8C00911FD0 /* mtopsdk_configuration.plist */; };
+		FC07DFB223B07CFE00911FD0 /* WebHandleVC.m in Sources */ = {isa = PBXBuildFile; fileRef = FC07DFB123B07CFE00911FD0 /* WebHandleVC.m */; };
+		FC07DFBB23B08A3D00911FD0 /* JDSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FC07DFB923B08A3D00911FD0 /* JDSDK.bundle */; };
+		FC07DFBC23B08A3D00911FD0 /* JDSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC07DFBA23B08A3D00911FD0 /* JDSDK.framework */; };
+		FC07DFBE23B08A5C00911FD0 /* KeplerApiManager.h in Frameworks */ = {isa = PBXBuildFile; fileRef = FC07DFBD23B08A5C00911FD0 /* KeplerApiManager.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FC07DED123AE734E00911FD0 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC07DED423AE734E00911FD0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FC07DED523AE734E00911FD0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FC07DEDA23AE734E00911FD0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FC07DEDB23AE734E00911FD0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FC07DEE023AE734F00911FD0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC07DEE323AE734F00911FD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FC07DEE523AE734F00911FD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC07DEE623AE734F00911FD0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FC07DEF323AE738000911FD0 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		FC07DEF523AE738B00911FD0 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		FC07DEF723AE739F00911FD0 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		FC07DEF923AE73B300911FD0 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		FC07DEFA23AE73BE00911FD0 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		FC07DEFC23AE73D000911FD0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FC07DEFE23AE73D900911FD0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FC07DF1123AE7B0600911FD0 /* AlibabaAuthSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AlibabaAuthSDK.bundle; sourceTree = "<group>"; };
+		FC07DF1223AE7B0600911FD0 /* AlipaySDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AlipaySDK.bundle; sourceTree = "<group>"; };
+		FC07DF1323AE7B0600911FD0 /* SmartLink.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SmartLink.bundle; sourceTree = "<group>"; };
+		FC07DF1423AE7B0600911FD0 /* NBResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = NBResource.bundle; sourceTree = "<group>"; };
+		FC07DF1623AE7B0900911FD0 /* AlibabaAuthExt.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlibabaAuthExt.framework; sourceTree = "<group>"; };
+		FC07DF1723AE7B0900911FD0 /* MtopSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MtopSDK.framework; sourceTree = "<group>"; };
+		FC07DF1823AE7B0900911FD0 /* mtopext.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = mtopext.framework; sourceTree = "<group>"; };
+		FC07DF1923AE7B0900911FD0 /* AlibabaAuthSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlibabaAuthSDK.framework; sourceTree = "<group>"; };
+		FC07DF1A23AE7B0900911FD0 /* AlibcTradeSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlibcTradeSDK.framework; sourceTree = "<group>"; };
+		FC07DF1B23AE7B0900911FD0 /* AlibcLinkPartnerSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlibcLinkPartnerSDK.framework; sourceTree = "<group>"; };
+		FC07DF1C23AE7B0900911FD0 /* SecurityGuardSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SecurityGuardSDK.framework; sourceTree = "<group>"; };
+		FC07DF1D23AE7B0900911FD0 /* UTDID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UTDID.framework; sourceTree = "<group>"; };
+		FC07DF1E23AE7B0900911FD0 /* AlibcTradeBiz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlibcTradeBiz.framework; sourceTree = "<group>"; };
+		FC07DF1F23AE7B0900911FD0 /* SGMain.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SGMain.framework; sourceTree = "<group>"; };
+		FC07DF2023AE7B0900911FD0 /* mtopcoreopen.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = mtopcoreopen.framework; sourceTree = "<group>"; };
+		FC07DF2123AE7B0900911FD0 /* UTMini.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UTMini.framework; sourceTree = "<group>"; };
+		FC07DF2223AE7B0900911FD0 /* SGAVMP.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SGAVMP.framework; sourceTree = "<group>"; };
+		FC07DF2323AE7B0900911FD0 /* SGMiddleTier.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SGMiddleTier.framework; sourceTree = "<group>"; };
+		FC07DF2423AE7B0900911FD0 /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlipaySDK.framework; sourceTree = "<group>"; };
+		FC07DF2523AE7B0900911FD0 /* SGSecurityBody.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SGSecurityBody.framework; sourceTree = "<group>"; };
+		FC07DF3D23AE7B7200911FD0 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		FC07DF3F23AE7B7B00911FD0 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		FC07DF4123AE7C8C00911FD0 /* mtopsdk_configuration.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = mtopsdk_configuration.plist; sourceTree = "<group>"; };
+		FC07DFB023B07CFE00911FD0 /* WebHandleVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebHandleVC.h; sourceTree = "<group>"; };
+		FC07DFB123B07CFE00911FD0 /* WebHandleVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebHandleVC.m; sourceTree = "<group>"; };
+		FC07DFB923B08A3D00911FD0 /* JDSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = JDSDK.bundle; sourceTree = "<group>"; };
+		FC07DFBA23B08A3D00911FD0 /* JDSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = JDSDK.framework; sourceTree = "<group>"; };
+		FC07DFBD23B08A5C00911FD0 /* KeplerApiManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = KeplerApiManager.h; path = Demo/JDLib/JDSDK.framework/Headers/KeplerApiManager.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC07DECE23AE734E00911FD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC07DFBE23B08A5C00911FD0 /* KeplerApiManager.h in Frameworks */,
+				FC07DF3C23AE7B6100911FD0 /* libsqlite3.tbd in Frameworks */,
+				FC07DF4023AE7B7B00911FD0 /* CoreMotion.framework in Frameworks */,
+				FC07DEF423AE738000911FD0 /* JavaScriptCore.framework in Frameworks */,
+				FC07DEFD23AE73D000911FD0 /* Foundation.framework in Frameworks */,
+				FC07DF3B23AE7B5900911FD0 /* libsqlite3.0.tbd in Frameworks */,
+				FC07DF3523AE7B0900911FD0 /* UTMini.framework in Frameworks */,
+				FC07DF3023AE7B0900911FD0 /* SecurityGuardSDK.framework in Frameworks */,
+				FC07DFBC23B08A3D00911FD0 /* JDSDK.framework in Frameworks */,
+				FC07DF2A23AE7B0900911FD0 /* AlibabaAuthExt.framework in Frameworks */,
+				FC07DF3223AE7B0900911FD0 /* AlibcTradeBiz.framework in Frameworks */,
+				FC07DF3E23AE7B7200911FD0 /* CoreTelephony.framework in Frameworks */,
+				FC07DEF623AE739300911FD0 /* libz.tbd in Frameworks */,
+				FC07DF3423AE7B0900911FD0 /* mtopcoreopen.framework in Frameworks */,
+				FC07DF3123AE7B0900911FD0 /* UTDID.framework in Frameworks */,
+				FC07DF2F23AE7B0900911FD0 /* AlibcLinkPartnerSDK.framework in Frameworks */,
+				FC07DF3923AE7B0900911FD0 /* SGSecurityBody.framework in Frameworks */,
+				FC07DF2D23AE7B0900911FD0 /* AlibabaAuthSDK.framework in Frameworks */,
+				FC07DF3623AE7B0900911FD0 /* SGAVMP.framework in Frameworks */,
+				FC07DF2E23AE7B0900911FD0 /* AlibcTradeSDK.framework in Frameworks */,
+				FC07DEF823AE739F00911FD0 /* SystemConfiguration.framework in Frameworks */,
+				FC07DF3A23AE7B3800911FD0 /* libz.tbd in Frameworks */,
+				FC07DF3823AE7B0900911FD0 /* AlipaySDK.framework in Frameworks */,
+				FC07DF3323AE7B0900911FD0 /* SGMain.framework in Frameworks */,
+				FC07DF3723AE7B0900911FD0 /* SGMiddleTier.framework in Frameworks */,
+				FC07DEFB23AE73C500911FD0 /* libsqlite3.0.tbd in Frameworks */,
+				FC07DEFF23AE73D900911FD0 /* UIKit.framework in Frameworks */,
+				FC07DF2B23AE7B0900911FD0 /* MtopSDK.framework in Frameworks */,
+				FC07DF2C23AE7B0900911FD0 /* mtopext.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC07DEC823AE734E00911FD0 = {
+			isa = PBXGroup;
+			children = (
+				FC07DED323AE734E00911FD0 /* Demo */,
+				FC07DED223AE734E00911FD0 /* Products */,
+				FC07DEF223AE737F00911FD0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FC07DED223AE734E00911FD0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC07DED123AE734E00911FD0 /* Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC07DED323AE734E00911FD0 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				FC07DFB823B08A3D00911FD0 /* JDLib */,
+				FC07DF1023AE7B0600911FD0 /* bundle */,
+				FC07DF1523AE7B0900911FD0 /* framework */,
+				FC07DED423AE734E00911FD0 /* AppDelegate.h */,
+				FC07DED523AE734E00911FD0 /* AppDelegate.m */,
+				FC07DF4123AE7C8C00911FD0 /* mtopsdk_configuration.plist */,
+				FC07DFB023B07CFE00911FD0 /* WebHandleVC.h */,
+				FC07DFB123B07CFE00911FD0 /* WebHandleVC.m */,
+				FC07DEDA23AE734E00911FD0 /* ViewController.h */,
+				FC07DEDB23AE734E00911FD0 /* ViewController.m */,
+				FC07DEE023AE734F00911FD0 /* Assets.xcassets */,
+				FC07DEE223AE734F00911FD0 /* LaunchScreen.storyboard */,
+				FC07DEE523AE734F00911FD0 /* Info.plist */,
+				FC07DEE623AE734F00911FD0 /* main.m */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		FC07DEF223AE737F00911FD0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC07DFBD23B08A5C00911FD0 /* KeplerApiManager.h */,
+				FC07DF3F23AE7B7B00911FD0 /* CoreMotion.framework */,
+				FC07DF3D23AE7B7200911FD0 /* CoreTelephony.framework */,
+				FC07DEFE23AE73D900911FD0 /* UIKit.framework */,
+				FC07DEFC23AE73D000911FD0 /* Foundation.framework */,
+				FC07DEFA23AE73BE00911FD0 /* libsqlite3.0.tbd */,
+				FC07DEF923AE73B300911FD0 /* libsqlite3.tbd */,
+				FC07DEF723AE739F00911FD0 /* SystemConfiguration.framework */,
+				FC07DEF523AE738B00911FD0 /* libz.tbd */,
+				FC07DEF323AE738000911FD0 /* JavaScriptCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FC07DF1023AE7B0600911FD0 /* bundle */ = {
+			isa = PBXGroup;
+			children = (
+				FC07DF1123AE7B0600911FD0 /* AlibabaAuthSDK.bundle */,
+				FC07DF1223AE7B0600911FD0 /* AlipaySDK.bundle */,
+				FC07DF1323AE7B0600911FD0 /* SmartLink.bundle */,
+				FC07DF1423AE7B0600911FD0 /* NBResource.bundle */,
+			);
+			path = bundle;
+			sourceTree = "<group>";
+		};
+		FC07DF1523AE7B0900911FD0 /* framework */ = {
+			isa = PBXGroup;
+			children = (
+				FC07DF1623AE7B0900911FD0 /* AlibabaAuthExt.framework */,
+				FC07DF1723AE7B0900911FD0 /* MtopSDK.framework */,
+				FC07DF1823AE7B0900911FD0 /* mtopext.framework */,
+				FC07DF1923AE7B0900911FD0 /* AlibabaAuthSDK.framework */,
+				FC07DF1A23AE7B0900911FD0 /* AlibcTradeSDK.framework */,
+				FC07DF1B23AE7B0900911FD0 /* AlibcLinkPartnerSDK.framework */,
+				FC07DF1C23AE7B0900911FD0 /* SecurityGuardSDK.framework */,
+				FC07DF1D23AE7B0900911FD0 /* UTDID.framework */,
+				FC07DF1E23AE7B0900911FD0 /* AlibcTradeBiz.framework */,
+				FC07DF1F23AE7B0900911FD0 /* SGMain.framework */,
+				FC07DF2023AE7B0900911FD0 /* mtopcoreopen.framework */,
+				FC07DF2123AE7B0900911FD0 /* UTMini.framework */,
+				FC07DF2223AE7B0900911FD0 /* SGAVMP.framework */,
+				FC07DF2323AE7B0900911FD0 /* SGMiddleTier.framework */,
+				FC07DF2423AE7B0900911FD0 /* AlipaySDK.framework */,
+				FC07DF2523AE7B0900911FD0 /* SGSecurityBody.framework */,
+			);
+			path = framework;
+			sourceTree = "<group>";
+		};
+		FC07DFB823B08A3D00911FD0 /* JDLib */ = {
+			isa = PBXGroup;
+			children = (
+				FC07DFB923B08A3D00911FD0 /* JDSDK.bundle */,
+				FC07DFBA23B08A3D00911FD0 /* JDSDK.framework */,
+			);
+			path = JDLib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC07DED023AE734E00911FD0 /* Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC07DEEA23AE734F00911FD0 /* Build configuration list for PBXNativeTarget "Demo" */;
+			buildPhases = (
+				FC07DECD23AE734E00911FD0 /* Sources */,
+				FC07DECE23AE734E00911FD0 /* Frameworks */,
+				FC07DECF23AE734E00911FD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Demo;
+			productName = Demo;
+			productReference = FC07DED123AE734E00911FD0 /* Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC07DEC923AE734E00911FD0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Linkdom;
+				TargetAttributes = {
+					FC07DED023AE734E00911FD0 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = FC07DECC23AE734E00911FD0 /* Build configuration list for PBXProject "Demo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC07DEC823AE734E00911FD0;
+			productRefGroup = FC07DED223AE734E00911FD0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC07DED023AE734E00911FD0 /* Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC07DECF23AE734E00911FD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC07DF2923AE7B0900911FD0 /* NBResource.bundle in Resources */,
+				FC07DF2723AE7B0900911FD0 /* AlipaySDK.bundle in Resources */,
+				FC07DFBB23B08A3D00911FD0 /* JDSDK.bundle in Resources */,
+				FC07DEE423AE734F00911FD0 /* LaunchScreen.storyboard in Resources */,
+				FC07DF2623AE7B0900911FD0 /* AlibabaAuthSDK.bundle in Resources */,
+				FC07DF2823AE7B0900911FD0 /* SmartLink.bundle in Resources */,
+				FC07DEE123AE734F00911FD0 /* Assets.xcassets in Resources */,
+				FC07DF4223AE7C8D00911FD0 /* mtopsdk_configuration.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC07DECD23AE734E00911FD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC07DEDC23AE734E00911FD0 /* ViewController.m in Sources */,
+				FC07DED623AE734E00911FD0 /* AppDelegate.m in Sources */,
+				FC07DFB223B07CFE00911FD0 /* WebHandleVC.m in Sources */,
+				FC07DEE723AE734F00911FD0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FC07DEE223AE734F00911FD0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC07DEE323AE734F00911FD0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC07DEE823AE734F00911FD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FC07DEE923AE734F00911FD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC07DEEB23AE734F00911FD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UE7ADRN76L;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Demo/JDLib",
+					"$(PROJECT_DIR)/Demo",
+					"$(PROJECT_DIR)/Demo/framework",
+					"$(PROJECT_DIR)/Demo/92bf0ea5a8df29b035ccb2bcd73c0e72",
+					"$(PROJECT_DIR)/Demo/c8f6b74b3fc9e7eff3842a7f5304e515",
+				);
+				INFOPLIST_FILE = Demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/Demo/JDLib";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lstdc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.company.Demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FC07DEEC23AE734F00911FD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UE7ADRN76L;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Demo/JDLib",
+					"$(PROJECT_DIR)/Demo",
+					"$(PROJECT_DIR)/Demo/framework",
+					"$(PROJECT_DIR)/Demo/92bf0ea5a8df29b035ccb2bcd73c0e72",
+					"$(PROJECT_DIR)/Demo/c8f6b74b3fc9e7eff3842a7f5304e515",
+				);
+				INFOPLIST_FILE = Demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/Demo/JDLib";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lstdc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.company.Demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC07DECC23AE734E00911FD0 /* Build configuration list for PBXProject "Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC07DEE823AE734F00911FD0 /* Debug */,
+				FC07DEE923AE734F00911FD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC07DEEA23AE734F00911FD0 /* Build configuration list for PBXNativeTarget "Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC07DEEB23AE734F00911FD0 /* Debug */,
+				FC07DEEC23AE734F00911FD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC07DEC923AE734E00911FD0 /* Project object */;
+}
